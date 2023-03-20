@@ -70,6 +70,11 @@ h1{
     text-shadow:2px 2px #42d6b6;
     
 }
+
+h4{
+font-size: medium;
+}
+
 #arK9{
     height: 80px;
     width:100px;
@@ -137,7 +142,7 @@ h1{
 
 
 h3{
-    font-size:38px;
+    font-size:40px;
     margin: 10px 10px 10px 10px;
     font-family: 'Bungee Spice', cursive;
     text-align: center;
