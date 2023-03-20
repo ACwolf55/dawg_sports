@@ -4,7 +4,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd,
+dl, dt, dd,li
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -56,7 +56,7 @@ header{
 
 
 nav{
-    height: 70px;
+    height: 65px;
     background-image: linear-gradient(to top left, rgb(32, 155, 186), rgb(233, 128, 243));
     background-color: rgb(138, 155, 204);
     display: flex;
@@ -137,11 +137,15 @@ h1{
 
 
 h3{
-    font-size:20px;
+    font-size:38px;
     margin: 10px 10px 10px 10px;
     font-family: 'Bungee Spice', cursive;
     text-align: center;
+    text-shadow: 0 0 7px #1d0101, 0 0 12px #bed607;
+    /* background-color: rgb(225, 158, 34); */
+    padding: 15px;
 }
+
 
 .title-link:hover{
 
@@ -186,11 +190,19 @@ main{
     flex-direction: row;
     align-items: space-around;
     justify-content: space-around;
-   
     background-color: rgb(214, 214, 214);
     color:#000000;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight:bolder
+    font-weight:bolder;
+  background-image: url("./pics/opaq-bills-stadium.png") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; 
+
 }
 section{
     display: flex;
@@ -206,7 +218,11 @@ section{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:10px;
-    height: 500px;
+    height: 540px;
+}
+
+li{
+margin-bottom: 10px;
 }
 
 .logo{
@@ -216,6 +232,8 @@ section{
 
 .player-pic{
     border-radius: 25px;
+    height: 12vh;
+    width:9vw;
 }
 
 article{
@@ -226,6 +244,13 @@ article{
     height: 250px;
     width:400px;
     margin:10px;
+    font-size: large;
+    /* overflow: scroll; */
+  }
+  
+  
+  li{
+  font-size: medium;
 }
 
 .profile{
@@ -239,12 +264,9 @@ article{
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
     height: 10vh
-}
-
-.player-pic{
-    height: 15vh;
-    width:8vw;
 }
 
 h5{
@@ -298,7 +320,7 @@ section{
 }
 
 article{
-  height: 275px;
+  height: 325px;
 }
 
 .profile{
