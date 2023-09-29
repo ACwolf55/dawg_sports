@@ -75,9 +75,28 @@ h4{
 font-size: medium;
 }
 
+
+#football{
+  height: 30px;
+  width:30px;
+  -webkit-animation: slideIn 1.5s forwards;
+  -moz-animation: slideIn 1.5s forwards;
+  animation: slideIn 1.5s forwards;
+  z-index: 2;
+  margin-left:-25px;
+  margin-bottom: -72px;
+}
+
+#football:hover{
+    
+  -webkit-animation: slideOut 1.5s forwards;
+  -moz-animation: slideOut 1.5s forwards;
+  animation: slideOut 1.5s forwards;
+}
+
 #arK9{
     height: 80px;
-    width:100px;
+    width:110px;
     -webkit-animation: slideIn 1.5s forwards;
     -moz-animation: slideIn 1.5s forwards;
     animation: slideIn 1.5s forwards;
@@ -223,7 +242,7 @@ section{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:10px;
-    height: 540px;
+    height: 682px;
 }
 
 li{
@@ -237,19 +256,19 @@ margin-bottom: 10px;
 
 .player-pic{
     border-radius: 25px;
-    height: 12vh;
-    width:9vw;
+    height: 16vh;
+    width:10vw;
 }
 
 article{
     border-radius: 25px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding:15px;
+    padding:20px;
     height: 250px;
-    width:400px;
+    width:300px;
     margin:10px;
-    font-size: large;
+    font-size: medium;
     /* overflow: scroll; */
   }
   
