@@ -83,7 +83,7 @@ font-size: medium;
   -moz-animation: slideIn 1.5s forwards;
   animation: slideIn 1.5s forwards;
   z-index: 2;
-  margin-left:-25px;
+  margin-left:-27px;
   margin-bottom: -72px;
 }
 
@@ -344,7 +344,7 @@ section{
 }
 
 article{
-  height: 325px;
+  height: 372px;
 }
 
 .profile{
